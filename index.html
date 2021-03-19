@@ -33,9 +33,6 @@
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
     <source src="mp4/bg.mp4" type="video/mp4">
   </video>
- 
-        
- 
 
   <div class="masthead">
     <div class="masthead-bg"></div>
@@ -88,12 +85,8 @@
 
   <!-- Send message with Whats-App -->
   <script>
-    function sendMessage() {
-     
- 
-      alert(document.getElementById("input-tell-us").value);
-      
-      window.open("https://api.whatsapp.com/send?phone=3175792354&text="+encodeURIComponent(document.getElementById("input-tell-us").value));
+    function sendMessage() { 
+      window.open("https://api.whatsapp.com/send?phone=573175792354&text="+encodeURIComponent(document.getElementById("input-tell-us").value));
       document.getElementById("input-tell-us").value = "Thank you!";
     }
   </script>
