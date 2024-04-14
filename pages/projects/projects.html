@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Tree Code</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../../img/favicon.png" rel="icon">
+  <link href="../../img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Extra CSS Files -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+  <!-- Template Main CSS File -->
+  <link href="../../css/projectStyle.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="#" onclick='newRoute("../../index.html")'>Tree Code</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link bilanguage" href="#" onclick='newRoute("../about.html")' data-en='About Us' data-es='Nosotros'></a></li>
+          <li><a class="nav-link bilanguage" href="#" onclick='newRoute("../services/services.html")' data-en='Services' data-es='Servicios'></a></li>
+          <li><a class="nav-link active bilanguage" href="#" data-en='Projects' data-es='Proyectos'></a></li>
+          <li><a class="nav-link bilanguage" href="#" onclick='newRoute("../contact.html")'data-en='Contact' data-es='Contacto'></a></li>
+          <li>
+            <div class="language-div" onclick='changelang()'><span class="data-es">ES</span> / <span class="data-en">EN</span></div>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Title Section ======= -->
+    <section id="title" class="title-mf sect-pt4 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="row align-items-center">
+              <div class="col-md-6">
+                <div class="pt-4 pt-md-0">
+                  <div>
+                    <h4 class="title bilanguage" data-en='Our Projects' data-es='Nuestros Proyectos'></h4>
+                  </div>
+                  <p class="bilanguage"
+                    data-en='Here you can take a look at some of the projects we have made happen'
+                    data-es='Aquí puedes echar un vistazo a algunos proyectos que hemos hecho realidad'>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img src="../../img/illusProjects.svg" alt="illusp" style="width: 100%; height: 100%;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Title Section -->
+
+    <!-- ======= Projects Section ======= -->
+    <section class="blog-wrapper sect-pt4" id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="../../img/portfolio-details-11.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="../../img/portfolio-details-11.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Geco</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Developer</span> / <span class="w-date">2022</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="#" onclick='newRoute("pages/projects/portfolio-geco.html")'> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="../../img/work-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="../../img/work-2.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Loreda Cuno Nere</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="../../img/work-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <div class="work-img">
+                  <img src="../../img/work-3.jpg" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Mavrito Lana Dere</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <div class="credits">
+              Tree Code 2022.
+              <a href="https://storyset.com/technology">Technology illustrations by Storyset</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End  Footer -->
+
+  <!-- Extra JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../../js/main.js"></script>
+  <script src="../../js/functions.js"></script>
+
+</body>
+
+</html>
